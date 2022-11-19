@@ -49,10 +49,10 @@ mycursor.execute(query2)
 
 sql2 = "INSERT INTO users (s_no, user_id, user_name, age, enrolled) VALUES (%s, %s, %s, %s, %s)"
 val2 = [
-  (1, 101, 'Doi', 27, 'yes'),
-  (2, 102, 'Selvi', 24, 'yes'),
-  (3, 103, 'Jaya', 14, 'no'),
-  (4, 104, 'Ajith', 25, 'yes')
+  (1, 101, 'Sel', 27, 'yes'),
+  (2, 102, 'Alan', 24, 'yes'),
+  (3, 103, 'Rose', 14, 'no'),
+  (4, 104, 'Jack', 25, 'yes')
 ]
 
 mycursor.executemany(sql2, val2)
